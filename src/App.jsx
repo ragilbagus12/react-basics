@@ -10,6 +10,7 @@ import UserList from './components/UserList'
 import DocumentTitle from './components/DocumentTitle'
 import Timer from './components/Timer'
 import UserFromAPI from './components/UserFromAPI'
+import UserManager from './components/UserManager'
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <DocumentTitle />
       <Timer />
       <UserFromAPI />
+      <UserManager />
     </div>
   )
 }
