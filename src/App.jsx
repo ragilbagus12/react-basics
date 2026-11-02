@@ -12,6 +12,7 @@ import Timer from './components/Timer'
 import UserFromAPI from './components/UserFromAPI'
 import UserManager from './components/UserManager'
 import StatusDemo from './components/StatusDemo'
+import TodoApp from './components/TodoApp'
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
       <UserFromAPI />
       <UserManager />
       <StatusDemo />
+      <TodoApp />
     </div>
   )
 }
